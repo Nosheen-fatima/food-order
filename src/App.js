@@ -5,9 +5,10 @@ import Cart from './components/Cart/Cart';
 import CartProvider from './Store/CartProvider';
 
 
+
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false);
-
+  console.log('hello')
   const showCartHandler = () => {
     setCartIsShown(true);
   }
